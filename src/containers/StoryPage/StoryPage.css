@@ -1,0 +1,35 @@
+.StoryPage {
+    background-image: url('../../Images/explosion.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.storyContainer {
+    /* background-image: url('../../Images/paperBackground.jpg');
+    background-image: cover; */
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    height: 1000px;
+    background-color: #eddcc4;
+    margin-bottom: 10%;
+}
+
+.Synopsis {
+    margin: 20px auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black;;
+    background-color: #641b0b;
+    width: 60%;
+}
+
+.storyText {
+    font-size: 20px;
+    color: black;
+}

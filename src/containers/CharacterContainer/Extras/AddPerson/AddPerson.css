@@ -1,0 +1,21 @@
+.addPerson {
+    margin-top: 20px auto;
+    text-align: right; 
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+.button {
+    background-color: rgb(255, 42, 148);
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px   black;
+    color: white;
+    height: 60px;
+    width: 150px;
+    margin: 10px 10px;
+}
+
+.button:hover {
+    background-color: rgb(253, 123, 203);
+}
+
