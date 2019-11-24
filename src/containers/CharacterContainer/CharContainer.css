@@ -1,0 +1,44 @@
+.characterPage {
+background-image: url('../../Images/village3.jpg');
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 1200px;
+}
+
+.characterLogo{
+    color: white;
+    text-shadow: 3px 3px  black;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.colored {
+    color: rgb(255, 102, 0);
+}
+
+.charBorder {
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.fullChar {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 3px 3px  rgb(255, 54, 155);
+    padding: 10px;
+    margin: 50px auto;
+    background-image: url('../../Images/logo2.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px  rgb(255, 54, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.thumbNail {
+    display: flex;
+    flex-wrap: wrap;
+}

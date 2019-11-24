@@ -1,0 +1,14 @@
+.singleImage {
+    word-wrap: break-word;
+    text-align: center;
+    margin: 15px;
+    max-width: 230px;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 13px;
+}
+
+.imgSize {
+    width: 80%;
+    height: 80%;
+}

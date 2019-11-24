@@ -1,0 +1,1 @@
+export const SELECT_CHAR = 'SELECT_CHAR';

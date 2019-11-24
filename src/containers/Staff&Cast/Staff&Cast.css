@@ -1,0 +1,37 @@
+.Staff {
+    text-align: center;
+    background-image: url('../../Images/town4.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 1200px;
+}
+
+.StaffTitle {
+    color: white;
+    text-shadow: 3px 3px  black;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 3px  rgb(255, 54, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.Titles {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px  rgb(255, 54, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Cast {
+    text-align: center;
+    color: white;
+    margin: 5px auto;
+}
+
+.List {
+    list-style-type: none;
+}
+

@@ -1,0 +1,60 @@
+.Contact {
+    text-align: center;
+    background-image: url('../../Images/group.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+
+.image {
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 2px 2px rgb(255, 54, 155);
+}
+
+.titleText {
+    color: white;
+    text-shadow: 3px 3px  black;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 3px  rgb(255, 54, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.linksToMe {
+    padding: 5px;
+    text-align: left;
+    text-shadow: 1px 1px  black;
+    color: white;
+    font-size: 18px;
+}
+
+.contactTitle {
+    color: white;
+    text-shadow: 3px 3px  black;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px  rgb(255, 54, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.textEdit {
+    text-align: left;
+    text-shadow: 2px 2px  black;
+    color: white;
+    font-size: 20px;
+}
+
+.imgBottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imgGif {
+    border: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 3px 3px rgb(255, 54, 155);
+}

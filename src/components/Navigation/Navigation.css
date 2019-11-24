@@ -1,0 +1,7 @@
+.Nav {
+    background-color: wheat;
+    width: 100%;
+    height: 20%;
+    display: inline-flex;
+    border-bottom: 1px solid black;
+}

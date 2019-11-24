@@ -1,0 +1,19 @@
+.Books {
+    background-image: url('../../Images/town3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bookContainer {
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bookFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
