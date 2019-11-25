@@ -9,8 +9,9 @@
     text-align: center;
     color: white;
     text-shadow: 3px 3px rgb(255, 54, 155);
-    margin: 10px auto;
-    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 70px;
 }
 
 .videoHeader {

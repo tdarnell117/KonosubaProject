@@ -10,7 +10,7 @@
 .StaffTitle {
     color: white;
     text-shadow: 3px 3px  black;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     text-shadow: 3px 3px  rgb(255, 54, 155);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,7 +31,29 @@
     margin: 5px auto;
 }
 
-.List {
-    list-style-type: none;
+.Names {
+    text-align: center;
 }
+
+.color1 {
+    color: #ed308b;
+}
+
+.color2 {
+    color: #F08300;
+}
+
+.color3 {
+    color: #2d91d0;
+}
+
+.color4 {
+    color: #369c0e;
+}
+
+.staffCastNames {
+    font-size: 25px;
+}
+
+
 

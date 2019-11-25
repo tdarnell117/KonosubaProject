@@ -1,32 +1,40 @@
 import React, { Component } from 'react';
 import './Home.css';
-import MovieImg from '../../Images/moviePicture2.jpg';
+import MovieImg from '../../Images/moviePicture.jpg';
 
 class Home extends Component {
 
 render() {
     return (
         <div className='Home'>
+
             <div className='container'>
-            <div className='row'>
-                    <div className='col-sm-12'>
-                    <h1 className='headerText'>Get Excited For The New Movie!</h1>
-                    </div>
-                </div>
-                <div className='container poster'>
                 <div className='row'>
-                    <div className='col-sm-12 '>
-                        <img src={MovieImg} alt='poster' />
+                    <div className='col-sm-12'>
+                        <h1 className='headerText'>Get Excited For The New Movie!</h1>
                     </div>
                 </div>
+            </div>
+
+            <div className='container'>
+                <div className='container poster'>
+                    <div className='row'>
+                        <div className='col-sm-12 '>
+                            <img src={MovieImg} alt='poster' />
+                        </div>
+                    </div>
                 </div>  
             </div>
+
             <div className='container'>
                 <div className='row'>
                     <div className='col-sm-12'>
-                        <h1 className='videoHeader'>Check Out The Trailer!</h1>
+                        <h1 className='headerText'>Check Out The Trailer!</h1>
                     </div>
                 </div>
+            </div>
+
+            <div className='container'>
                 <div className='row'>
                     <div className='col-sm-12 video'>
                         <iframe width="700"
@@ -40,6 +48,7 @@ render() {
                     </div>
                 </div>
             </div>
+            
         </div>
         )
     }

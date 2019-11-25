@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import './Navigation.css'
-import Logo from '../Logo/Logo';
+
 import Navigationitems from '../Navigation/NavigationItems/NavigationItems'
 
 class Navigation extends Component {
     render() {
         return (
             <nav className='Nav'>
-                <Logo />
-                <Navigationitems />
+                <div className='container-fluid'>
+                    <div className='row'>
+                        <div className='col-sm-12'>
+                        
+                        <Navigationitems />
+                        </div>
+                    </div>
+                </div> 
             </nav>
         )
     }
