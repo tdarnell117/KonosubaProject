@@ -13,45 +13,47 @@ class StaffCast extends Component {
                     </div>
                 </div>
              <div className='container Cast'>
-                        <div className='row '>
+                    <div className='row '>
                         <div className='col-sm-6'>
-                        <h1 className='Titles'>Staff</h1>
-                            <ul>
-                                <li className='List' >Original: Natsume Aoi</li>
-                                <li className='List' >Original illustration: Kurone Mishima</li>
-                                <li className='List' >Directed by: Takaomi Kanesaki</li>
-                                <li className='List' >Screenplay: Makoto Uezu</li>
-                                <li className='List' >Character Design: Koichi Kikuta</li>
-                                <li className='List' >Art Director: Masakazu Miyake</li>
-                                <li className='List' >Color design: Yukiko Ito</li>
-                                <li className='List' >Director of Photography: Yuki Hirose</li>
-                                <li className='List' >Edit: Yoshiko Kimura (MADBOX)</li>
-                                <li className='List' >Acoustic director: Miwa Iwanami</li>
-                                <li className='List' >Music: Masato Koda</li>
-                                <li className='List' >Animation production: JCSTAFF</li>
-                                <li className='List' >Production: Movie This Subaru Production Committee</li>
-                                <li className='List' >Main subject: "1 mm Symphony" Machico</li>
-                                <li className='List' >ED theme: “My Home Town”
-                                    Aqua (CV: Amamiya Ten),
-                                    Megumin (CV: Lii Takahashi),
-                                    Dakunes (CV: Ai Kanno)</li>
-                            </ul>
+                            <h1 className='Titles'>Staff</h1>
                         </div>
-
                         <div className='col-sm-6'>
                             <h1 className='Titles'>Cast</h1>
-                            <ul>
-                                <li className='List' >Kazuma: Jun Fukushima</li>
-                                <li className='List' >Aqua: Amemiya Ten</li>
-                                <li className='List' >Megumin: Lii Takahashi</li>
-                                <li className='List' >Darkness: Ai Kanno</li>
-                                <li className='List' >Yun Yun: Toyosaki Aioi</li>
-                                <li className='List' >Wiz: Yui Horie</li>
-                                <li className='List' >Vanir: Masakazu Nishida</li>
-                                <li className='List' >Luna: Yuri Hara</li>
-                                <li className='List' >Ruffian: Toru Inada</li>
-                                <li className='List' >Komekko: Maria Nagano</li>
-                            </ul>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-sm-6 Names'>
+                            <p className='staffCastNames'><span className='color1'>Original:</span> Natsume Aoi</p>
+                            <p className='staffCastNames'><span className='color2'>Original illustration:</span> Kurone Mishima</p>
+                            <p className='staffCastNames'><span className='color3'>Directed by:</span> Takaomi Kanesaki</p>
+                            <p className='staffCastNames'><span className='color4'>Screenplay:</span> Makoto Uezu</p>
+                            <p className='staffCastNames'><span className='color1'>Character Design:</span> Koichi Kikuta</p>
+                            <p className='staffCastNames'><span className='color2'>Art Director:</span> Masakazu Miyake</p>
+                            <p className='staffCastNames'><span className='color3'>Color design:</span> Yukiko Ito</p>
+                            <p className='staffCastNames'><span className='color4'>Director of Photography:</span> Yuki Hirose</p>
+                            <p className='staffCastNames'><span className='color1'>Edit:</span> Yoshiko Kimura (MADBOX)</p>
+                            <p className='staffCastNames'><span className='color2'>Acoustic director:</span> Miwa Iwanami</p>
+                            <p className='staffCastNames'><span className='color3'>Music:</span> Masato Koda</p>
+                            <p className='staffCastNames'><span className='color4'>Animation production:</span> JCSTAFF</p>
+                            <p className='staffCastNames'><span className='color1'>Production:</span> Movie This Subaru Production Committee</p>
+                            <p className='staffCastNames'><span className='color2'>Main subject:</span> "1 mm Symphony" Machico</p>
+                            <p className='staffCastNames'><span className='color3'>ED theme:</span> “My Home Town”
+                                Aqua (CV: Amamiya Ten),
+                                Megumin (CV: Lii Takahashi),
+                                Dakunes (CV: Ai Kanno)</p>
+                        </div>
+
+                        <div className='col-sm-6 Names'>
+                                <p className='staffCastNames'><span className='color1'>Kazuma:</span> Jun Fukushima</p>
+                                <p className='staffCastNames'><span className='color2'>Aqua:</span> Amemiya Ten</p>
+                                <p className='staffCastNames'><span className='color3'>Megumin:</span> Lii Takahashi</p>
+                                <p className='staffCastNames'><span className='color4'>Darkness:</span> Ai Kanno</p>
+                                <p className='staffCastNames'><span className='color1'>Yun Yun:</span> Toyosaki Aioi</p>
+                                <p className='staffCastNames'><span className='color2'>Wiz:</span> Yui Horie</p>
+                                <p className='staffCastNames'><span className='color3'>Vanir:</span> Masakazu Nishida</p>
+                                <p className='staffCastNames'><span className='color4'>Luna:</span> Yuri Hara</p>
+                                <p className='staffCastNames'><span className='color1'>Ruffian:</span> Toru Inada</p>
+                                <p className='staffCastNames'><span className='color2'>Komekko:</span> Maria Nagano</p> 
                         </div>
                         
                     </div>

@@ -61,12 +61,14 @@ class Books extends Component {
         
         return (
             <div className='Books'>
-                <div className='container bookContainer'>
+                <div className='container'>
                     <div className='row'>
                         <div className='col-sm-12'>
-                            <h1>Anime</h1>
+                            <h1 className='title'>Anime</h1>
                         </div>
                     </div>
+                </div>
+                <div className='container bookContainer'>
                         <div className='row'>
                             <div className='col-sm-12 bookFlex'>
                                 {anime}
@@ -75,12 +77,15 @@ class Books extends Component {
                 </div> 
                 
 
-                <div className='container bookContainer'>
-                <div className='row'>
-                        <div className='col-sm-12'>
-                            <h1>Manga</h1>
+                <div className='container'>
+                    <div className='row'>
+                            <div className='col-sm-12'>
+                                <h1 className='title'>Manga</h1>
+                            </div>
                         </div>
-                    </div>
+                </div>
+
+                <div className='container bookContainer moreSpace'>
                     <div className='row'>
                         <div className='col-sm-12 bookFlex'>
                             {newImage}    
